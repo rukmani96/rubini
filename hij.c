@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
 char c;
 printf("enter any alphabet\n:");
@@ -11,7 +11,7 @@ printf("given alphabet is a vowel\n",c);
 }
 else
 {
-printf("given alphabet is a vowel\n",c);
+printf("given alphabet is  not a vowel\n",c);
 }
 getch();
 }
