@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
 int n;
@@ -13,5 +12,5 @@ else
 {
 printf("n is odd\n");
 }
-getch();
+return 0;
 }
